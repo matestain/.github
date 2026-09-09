@@ -21,16 +21,20 @@ The name is a deliberate double meaning: a technical acronym and a cultural refe
 
 > **Naming note:** Layer 1 is called "Engineering Services" externally — not "Field Engineering Services". Field presence is how we deliver, not what we sell.
 
-MATESTAIN offers three service packages under Layer 1. All packages include Field Commissioning.
+MATESTAIN offers six service packages under Layer 1, built from underlying Service Units (SU-01
+through SU-06 — see `brand/templates/proposal/src/03-commercial-quote.md` for the full quoting logic).
 Mechanical engineering is always out of scope — parallel partner model only, no exceptions.
 
 ### Service Packages
 
 | Package | Includes | Typical Client |
 |---|---|---|
-| **Full Control** | Control Engineering + Software Development + Field Commissioning | Mechanical integrator without control capacity |
-| **Software & Field** | Software Development + Field Commissioning | Integrator with own electrical team, no software house |
-| **Field Services** | Field Commissioning only | Integrator needing trusted field resource — current primary revenue source |
+| **Full Control** | Control Engineering (SU-03) + Software Development (SU-02) + Field Commissioning (SU-01) | Mechanical integrator without control capacity |
+| **Software & Field** | Software Development (SU-02) + Field Commissioning (SU-01) | Integrator with own electrical team, no software house |
+| **Field Services** | Field Commissioning only (SU-01) | Integrator needing trusted field resource — current primary revenue source |
+| **Technical Services** | Technical Hours, T&M (SU-04) | Bounded engineering task (e.g. PLC logic migration) without onsite commissioning |
+| **Remote Support** | Remote Support (SU-05) | Post-SAT support, no travel |
+| **Field Support** | Field Support (SU-06) | Post-SAT support requiring an onsite visit |
 
 ### Control Engineering
 
@@ -76,7 +80,7 @@ other package.
 **Travel & standby policy:**
 - Standby days: **100% of day rate, always.** Cause documented for negotiation leverage.
 - International travel days: 75% of day rate.
-- Local mobility (hotel → site > 20 min): billed at travel day rate.
+- Local mobility (hotel → site > 15 min): billed at travel day rate.
 - Flights: always a separate line item at actual cost.
 - Visa / travel documentation: always a separate line item at actual cost.
 
@@ -402,18 +406,19 @@ Automated overnight pipeline that scrapes pain signals across forums, review sit
 - Content pipeline semi-automated via n8n
 
 **What's in progress:**
-- 40 project templates — structure defined, execution in progress
+- 29 registered project templates (3 defined — T-STD-001, 002, 004 — 26 planned, see `project-template/TEMPLATE-MASTER-LIST.md`)
 - Plantwise Phase 1 modules (protocol diagnostics + commissioning governance)
 - Wyoming LLC formation — pending first direct client or Layer 2 revenue trigger
 
 **What's pending (priority order):**
-1. Commercial proposal template
-2. Base client contract
-3. Payment conditions document
-4. Wyoming LLC formation
-5. NCA exit strategy definition
-6. Plantwise pricing (Layer 2)
-7. Class 37 trademark filing (separate from Class 42)
+1. Base client contract
+2. Payment conditions document
+3. Wyoming LLC formation
+4. NCA exit strategy definition
+5. Plantwise pricing (Layer 2)
+6. Class 37 trademark filing (separate from Class 42)
+
+_Commercial proposal template — done, see `brand/templates/proposal/`._
 
 **NCA status:**
 Active. Automatica Services LLC (Delaware). Restriction: field commissioning / mechanical / electrical / machine startup services to their client portfolio only. Software, SaaS, and digital services are explicitly not restricted. Pre-NCA contacts (Royal Canin/MARS, Saputo, Unilever — Argentina) available for Layer 2 outreach immediately.

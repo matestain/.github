@@ -49,9 +49,9 @@ Scalable tools for industrial environments — built by engineers who've spent t
 **Robotics**
 
 ![KUKA](https://img.shields.io/badge/KUKA-FF6600?logoColor=white)
-![ABB](https://img.shields.io/badge/ABB-FF0000?logoColor=white)
 ![Yaskawa](https://img.shields.io/badge/Yaskawa-003087?logoColor=white)
-![Fanuc](https://img.shields.io/badge/Fanuc-FFD700?logoColor=black)
+
+_Also worked with: Fanuc (one from-scratch project). ABB: planned, once sufficient project depth is established._
 
 **Instrumentation & Sensing**
 
@@ -71,6 +71,7 @@ Scalable tools for industrial environments — built by engineers who've spent t
 | [.github](https://github.com/matestain/.github)     | Public     | Org defaults, issue templates, this profile |
 | [plantwise](https://github.com/matestain/plantwise) | Public     | Flagship SaaS product                       |
 | [brand](https://github.com/matestain/brand)         | Public     | Visual identity, logo, assets               |
+| [docs](https://github.com/matestain/docs)           | Public     | Cross-product documentation                 |
 | [website](https://github.com/matestain/website)     | Public     | matestain.com                               |
 
 ---
